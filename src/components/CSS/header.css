@@ -1,0 +1,38 @@
+
+  .App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 10vh 2vh 10vh;
+    background-color: --background-main-color;
+    color: var(--submain-font-color);
+  }
+  
+  .logo img {
+    width: 10vh;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    font-family: var(--font-subheading);
+    color: var(--main-font-color);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: opacity 0.3s ease; 
+    text-decoration: none;
+  }
+  
+  .nav-links .active {
+    color: var(--main-font-color);
+    opacity: 1;
+  }
+  
+  .nav-links a:hover {
+    font-weight: bold;
+    text-decoration: none; 
+    color: inherit; 
+  }
