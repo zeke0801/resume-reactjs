@@ -6,6 +6,7 @@ import About from './components/About';
 import AreaOfExpertise from './components/AreaOfExpertise';
 import Work from './components/Work';
 import Experience from './components/JobExp';
+import Files from './components/Files';
 import Contact from './components/Contact';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <AreaOfExpertise />
       <Work />
       <Experience />
+      <Files />
       <Contact />
     </>
   );

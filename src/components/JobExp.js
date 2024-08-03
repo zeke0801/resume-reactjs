@@ -3,7 +3,9 @@ import './CSS/jobexp.css';
 
 const Experience = () => (
     <div className='experience'>
-        <h1>Experience</h1>
+        <div className="merge">
+            <h1>Experience</h1>
+        </div>
         <div className='sect'>
             <div className='year'>
                 <h2>2024</h2>
