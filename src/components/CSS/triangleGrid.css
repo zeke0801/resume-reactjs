@@ -1,0 +1,39 @@
+.triangleGrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.triangleRow {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  font-family: var(--font-body);
+  color: antiquewhite;
+  font-weight: 510;
+  padding: 3vh;
+  margin: 2vh;
+  background-color: rgb(56, 55, 55);
+  border-radius: 2vh;
+  width: auto;
+  opacity: 0; /* Start as invisible */
+  transform: translateY(-20px); /* Start slightly above */
+}
+
+.block img {
+  width: 15vh;
+  height: auto;
+}
+
+.block:hover {
+  background-color: var(--main-font-color);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Move to original position */
+  }
+}

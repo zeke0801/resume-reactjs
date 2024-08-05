@@ -7,7 +7,7 @@ const socialLinks = [
 ];
 
 const Contact = () => (
-<div className="container">
+<div id="add-contact" className="container">
   <div className="colored-div">
     <span></span><h1>Contact Me</h1><span></span>
   </div>

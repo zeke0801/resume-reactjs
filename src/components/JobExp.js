@@ -2,7 +2,7 @@ import React from 'react';
 import './CSS/jobexp.css';
 
 const Experience = () => (
-    <div className='experience'>
+    <div id="add-exp" className='experience'>
         <div className="merge">
             <h1>Experience</h1>
         </div>

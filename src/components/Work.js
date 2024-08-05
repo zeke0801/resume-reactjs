@@ -3,14 +3,14 @@ import './CSS/work.css';
 import Button from './Button'; 
 
 const AreaOfExpertise = () => (
-  <div className="work">
+  <div id="add-port" className="work">
     <h1>Portfolio</h1>
     <div className="work-content">
       <div className="work-cor0">
-        <div className="block">
+        <div className="work-block">
           <img src="/img/p1.png" alt="Block 5" /><br/>
         </div>
-        <div className="block">
+        <div className="work-block">
           <div className='overlay'>
             <h3>SEO Application</h3>
             An application of the Hubspot principles on SEO
@@ -18,12 +18,12 @@ const AreaOfExpertise = () => (
           </div>
           <img src="/img/seo.png" alt="Block 5" /><br/>
         </div>
-        <div className="block">
+        <div className="work-block">
           <img src="/img/p2.png" alt="Block 5" /><br/>
         </div>
       </div>
       <div className="work-cor1">
-        <div className="block">
+        <div className="work-block">
           <div className='overlay'>
               <h3>Dalan;</h3>
               A tech-startup that I confounded during my Senior Year
@@ -31,7 +31,7 @@ const AreaOfExpertise = () => (
             </div>
           <img src="/img/dalan;.png" alt="Block 5" /><br/>
         </div>
-        <div className="block">
+        <div className="work-block">
           <div className='overlay'>
               <h3>PathSentinel</h3>
               A software we developed for our thesis that enables local governments to track reported road issues
@@ -39,7 +39,7 @@ const AreaOfExpertise = () => (
             </div>
           <img src="/img/pathsentinel.png" alt="Block 5" /><br/>
         </div>
-        <div className="block">
+        <div className="work-block">
         <div className='overlay'>
             <h3>Vet Ping</h3>
             Commissioned small project that allows veterinarians announced their medical rounds on a specific location

@@ -2,7 +2,7 @@ import React from 'react';
 import './CSS/about.css'
 
 const About = () => (
-  <div className="about">
+  <div id="add-about" className="about">
     <div className="divider"><span>About</span></div>
     <div className='marker'>
       <div className='y-mark'>
